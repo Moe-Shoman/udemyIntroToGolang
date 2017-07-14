@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//practice code working with arrays this will print alphabet
 func main() {
 	var x [58]string
 	fmt.Println(x)
