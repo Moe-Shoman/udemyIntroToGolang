@@ -14,7 +14,7 @@ func main() {
 		if b%2 == 0 { //there is an if that says add the sum to b and update sum value if b is an even number
 			sum += b
 		}
-		a, b = b, a+b //not too sure about this line...is this saying else if b isnt even just update values for a, set b to b and update sum?
+		a, b = b, a+b //this line assigns b to a and a+b to b
 	}
 	fmt.Println(sum) //this line just prints sum
 }
