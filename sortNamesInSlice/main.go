@@ -6,6 +6,7 @@ import (
 )
 
 //take a slice and sort it.
+//finally at end reverse sort
 
 type people []string
 
@@ -22,4 +23,6 @@ func main() {
 	fmt.Println(family)
 	a := family.Len()
 	fmt.Println(a)
+	sort.Sort(sort.Reverse(family)) //reverse the order of the slice
+	fmt.Println(family)
 }
