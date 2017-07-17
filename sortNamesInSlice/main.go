@@ -21,8 +21,9 @@ func main() {
 	fmt.Println(family) //this is the result of them sorted
 	family.Swap(0, 7)   //i wanted to play with the methods of the interface
 	fmt.Println(family)
-	a := family.Len()
-	fmt.Println(a)
-	sort.Sort(sort.Reverse(family)) //reverse the order of the slice
+	//a := family.Len()
+	//fmt.Println(a)
+	//sort.Sort(sort.Reverse(family)) //reverse the order of the slice
 	fmt.Println(family)
+	fmt.Println(family.Len())
 }
